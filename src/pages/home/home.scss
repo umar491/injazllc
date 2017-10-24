@@ -1,0 +1,82 @@
+#custom-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  width:100%;
+  background: linear-gradient(#209FD9, #0F75BC);
+}
+
+.flb {
+  height:100%;
+  width:100%;
+  animation: pulse 1s linear forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  max-width: 50%;
+}
+.Aligner-item--top {
+  align-self: flex-start;
+}
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+#custom-overlay img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  animation: animation 3100ms linear infinite both;
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.main-container{
+  width:100%;
+  height:100%;
+  background: linear-gradient(#209FD9, #0F75BC);
+}
+.section-logo{
+	padding-top:30%;
+	padding-left:35%;
+}
+.logo{
+	width:50%;
+}
+.databaseLink{
+	color:#fff;
+}
+.section-form{
+	padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+.injaz-color{
+	background-color:#FF9920;
+	color:#fff;	
+}
+.new-customer{
+	position: absolute;
+    bottom: 10px;
+    left: 58%;
+    margin-left: -104.5px;
+    text-align:center;
+}

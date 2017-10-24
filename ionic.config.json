@@ -1,0 +1,8 @@
+{
+  "name": "injazllc",
+  "app_id": "8caf5c41",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
